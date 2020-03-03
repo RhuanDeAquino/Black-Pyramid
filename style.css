@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-bottom: solid;
+    border-color: red;
+    border-width: 1.5px;
+}
+.caixa-logo {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.atividades-menu {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lista-menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.caixa-menu-perfil {
+    width: 30%;
+    display: flex;
+   align-items: center;
+}
+.pesquisa {
+    height: 50%;
+}
+.caixa-menu {
+    width: 60%;
+}
+.caixa-perfil {
+    width: 40%;
+    display: flex;
+}
+.perfil {
+    width: 50%;
+}
+section {
+    margin: 0;
+    padding: 0;
+}
+.imagem-section {
+    width: 100%;
+}
+.sessao-man-woman {
+    display: flex;
+}
+.imagem-man-woman {
+    width: 50%;
+}
+.sessao-publicidade {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.barrinha {
+    margin-top: 5px;
+    width: 10vh;
+    height: 2px;
+    background-color: red;
+}
+.atividades-album {
+    display: flex;
+    flex-direction: column;
+}
+.album {
+    display: flex;
+}
+.foto-album {
+    width: 25%;
+}
+footer {
+    height: 30vh;
+}
+.caixa-footer {
+    display: flex;
+}
+.caixa-lista-footer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.lista-footer {
+    height: 25vh;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item-lista {
+    font-size: 0.8rem;
+}
+.texto-footer {
+    width: 81%;
+    font-size: 0.8rem;
+}
+.caixa-texto-email {
+    width: 50%;
+    font-size: 0.8rem;
+}
+.enviar {
+    background-color: red;
+    color: wheat;
+    border-style: none;
+    margin-left: -5px;
+    height: 7vh;
+    width: 16%;
+}
+.digitar-email {
+    height: 7vh;
+    width: 50%;
+}
+.caixa-midia {
+    margin: 0;
+    margin-top: 5vh;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.midia-logo {
+    width: 5%;
+    height: 4vh;
+}
+.texto-midia {
+    width: 50%;
+}
+.caixa-logo-midia {
+    margin: 0;
+}
+.caixa-copyr {
+    height: 20vh;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
