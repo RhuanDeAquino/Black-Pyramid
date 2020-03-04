@@ -3,6 +3,8 @@ body {
     padding: 0;
 }
 header {
+    position: fixed;
+    top: 0px;
     background-color: #ffffff;
     display: flex;
     align-items: center;
@@ -10,6 +12,18 @@ header {
     border-color: red;
     border-width: 1.5px;
 }
+@media (min-width: 768px) {
+    .caixa-lupa {
+        width: 20%;
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    .lupa {
+        width: 50%;
+    }
+}
+
 .caixa-logo {
     width: 10%;
     display: flex;
@@ -23,6 +37,7 @@ header {
     justify-content: space-between;
 }
 .lista-menu {
+    font-size: 0.8rem;
     display: flex;
     list-style: none;
     justify-content: space-evenly;
@@ -32,11 +47,23 @@ header {
     display: flex;
    align-items: center;
 }
-.pesquisa {
-    height: 50%;
-}
 .caixa-menu {
     width: 60%;
+}
+@media (max-width: 768px) {
+    .caixa-menu {
+        display: none;
+    }
+}
+.link-menu {
+    color: black;
+    text-decoration: none;
+}
+.menu-item:hover {
+    color: red;
+}
+.pesquisa {
+    height: 50%;
 }
 .caixa-perfil {
     width: 40%;
@@ -48,6 +75,9 @@ header {
 section {
     margin: 0;
     padding: 0;
+}
+.sessao1 {
+    margin-top: 5rem;
 }
 .imagem-section {
     width: 100%;
@@ -101,6 +131,10 @@ footer {
 }
 .item-lista {
     font-size: 0.8rem;
+}
+.item-lista-link {
+    text-decoration: none;
+    color: black;
 }
 .texto-footer {
     width: 81%;
