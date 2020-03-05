@@ -61,6 +61,7 @@ header {
 }
 .menu-item:hover {
     color: red;
+    transition: 0.8s;
 }
 .pesquisa {
     height: 50%;
@@ -72,12 +73,24 @@ header {
 .perfil {
     width: 50%;
 }
+.perfil:hover {
+    transform: rotate(720deg);
+    transition: 3s;
+}
+.carrinho {
+    width: 50%;
+}
+.carrinho:hover {
+    transform: rotate(720deg);
+    transition: 3s;
+}
 section {
     margin: 0;
     padding: 0;
 }
 .sessao1 {
     margin-top: 5rem;
+    margin-bottom: -4px;
 }
 .imagem-section {
     width: 100%;
@@ -111,8 +124,8 @@ section {
 .foto-album {
     width: 25%;
 }
-footer {
-    height: 30vh;
+.foto-album:hover {
+    opacity: 0.8;
 }
 .caixa-footer {
     display: flex;
